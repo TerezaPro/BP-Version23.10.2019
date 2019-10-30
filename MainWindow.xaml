@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TabletVzhled"
         mc:Ignorable="d"
         Title="Tablet" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="Tablet">
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15"/>
@@ -60,8 +60,9 @@
                 Margin="5,5,5,5" Click="Pozice9_Click" Background="LawnGreen"
                 FontSize="45" BorderThickness="4"/>
 
-        <Button x:Name="Reset" Content="Reset" Grid.Column="4" Grid.Row="5"
-                Margin="20,20,20,20" FontSize="25" BorderThickness="4" Click="Reset_Click"/>
+        <Button x:Name="Reset_btn" Content="Reset" Grid.Column="4" Grid.Row="5"
+                Margin="15,15,15,15" FontSize="35" BorderThickness="4" Click="Reset_btn_Click"/>
+
 
     </Grid>
 </Window>
